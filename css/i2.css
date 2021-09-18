@@ -1,0 +1,287 @@
+h1 {
+  color: #eec889;
+  line-height: 1.25em;
+  font-size: 3em;
+}
+/* h1.i2_section_one_h1 {
+  display: flex;
+  flex-direction: column;
+} */
+span.i2_section_one_h1_span {
+  color: white;
+}
+.body {
+  background-color: #252637;
+  width: unset;
+  margin: auto;
+}
+/* section.i2_section_one.section_all {
+  padding-top: 80px;
+} */
+.heade_one_section {
+  background-color: #9999994f;
+  display: flex;
+}
+/* Шапка */
+svg.i2_svg_anim {
+  fill: white;
+}
+.i2_logo {
+  width: 8.9em;
+  max-width: 164px;
+  padding-left: 2em;
+}
+/* .i2_section_one {
+  margin-top: 82px;
+} */
+
+.i2_header_blok {
+  margin: 0 auto;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  max-width: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.section_all {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  max-width: 100%;
+  /* width: 80em; */
+}
+.i2_tel {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2em;
+}
+a.header-phone-i2 {
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+}
+.i2_header {
+  width: 86em;
+  margin: auto;
+  max-width: 100%;
+}
+
+.i2_section_one_p {
+  color: white;
+  font-size: 2em;
+}
+.shar {
+  width: 30%;
+  margin-top: 2em;
+}
+.i2_section_one_shar {
+  display: contents;
+  margin-top: 1em;
+}
+.i2_section_one_ytp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.i2_section_one {
+  margin-bottom: 3em;
+}
+
+/* Стили кнопки */
+.iksweb {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #252637;
+  background: #eec889;
+  border-radius: 17px;
+  border: 2px solid;
+}
+
+.iksweb:hover {
+  background: #ffebcc;
+  color: #252637;
+  border: 2px solid #eec889;
+  transition: all 0.4s ease;
+}
+.one_blok_bottom {
+  display: flex;
+  justify-content: center;
+}
+
+/* 2 блок */
+
+.i2_section_two_h2 {
+  color: #eec889;
+  text-align: center;
+  font-size: 2em;
+}
+.i2_section_two_blok_spiker {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 5em;
+  justify-content: center;
+}
+.i2_section_two_foto_spiker_1 {
+}
+.i2_section_two_foto_spiker_2 {
+  margin-top: 12em;
+}
+img.foto_spik {
+  width: 60%;
+}
+.text_spiker_i2 {
+  padding: 2em;
+  color: white;
+  font-size: 1.2em;
+}
+.i2_section_two_foto_spiker_1,
+.i2_section_two_foto_spiker_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 3 блок */
+.i2_pramoug {
+  background: #494955;
+  border-radius: 28% 0 0 0 / 280px 0 0 0;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.i2_pramoug_rev {
+  background: #494955;
+  border-radius: 0 0 28% 0 / 0 0 280px 0;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+i.fas.fa-calendar-plus.i2_teach__img {
+  color: white;
+}
+span.i2_icon-vozmoznosti-blok-text {
+  color: white;
+  font-size: 1.2em;
+  margin-left: 1em;
+}
+.i2_tre_blok_text {
+  text-align: center;
+}
+.i2_icon-calen_goog_div {
+  margin-bottom: 2em;
+}
+p.i2_summ.i2_standart-head {
+  text-decoration: line-through;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  color: white;
+  font-size: 2em;
+}
+p.i2_summ.i2_standart-head-fre {
+  font-size: 1.5em;
+  color: #eec889;
+}
+a.i2_icon-calen_goog_a_klub-investorov {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i2_blok_pram_l {
+  margin-left: 3em;
+  margin-right: 1em;
+}
+.i2_blok_pram_r {
+  margin-left: 1em;
+  margin-right: 3em;
+}
+section.i2_section_thre {
+  display: flex;
+  flex-direction: row;
+}
+
+p.i2_summ.i2_standart-head_platn {
+  color: white;
+  font-size: 2em;
+}
+/* section.i2_section_thre {
+  margin-bottom: 3em;
+} */
+@media screen and (min-width: 1200px) {
+  .section_all {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 100%;
+  }
+}
+@media (min-width: 100px) and (max-width: 800px) {
+  h1 {
+    color: rgb(238, 200, 137);
+    line-height: 1.25em;
+    font-size: 2em;
+  }
+}
+@media (min-width: 100px) and (max-width: 500px) {
+  .i2_section_two_blok_spiker {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5em;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .i2_section_two_foto_spiker_2 {
+    margin-top: 2em;
+  }
+  .i2_section_one_ytp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .iksweb {
+    font-size: 1.5em;
+  }
+  .i2_blok_pram {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  .i2_logo {
+    width: 7.9em;
+    padding-left: 1em;
+  }
+  .i2_tel {
+    padding-right: 1em;
+  }
+  .section_all {
+    width: unset;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  .i2_logo {
+    padding-left: 0em;
+  }
+  .i2_header_blok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .i2_tel {
+    padding-right: 0em;
+  }
+  /* .i2_section_one {
+    margin-top: 120px;
+  } */
+  .section_all {
+    width: unset;
+  }
+}
