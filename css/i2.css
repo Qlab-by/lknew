@@ -213,6 +213,11 @@ p.i2_summ.i2_standart-head_platn {
 /* section.i2_section_thre {
   margin-bottom: 3em;
 } */
+
+h2.i2_section_two_h2_free {
+  text-align: center;
+  color: #eec889;
+}
 @media screen and (min-width: 1200px) {
   .section_all {
     margin-right: auto;
@@ -222,6 +227,22 @@ p.i2_summ.i2_standart-head_platn {
     max-width: 100%;
   }
 }
+@media (min-width: 100px) and (max-width: 1200px) {
+  section.i2_section_thre {
+    display: flex;
+    flex-direction: column;
+  }
+  .i2_blok_pram_l {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+  }
+  .i2_blok_pram_r {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
+
 @media (min-width: 100px) and (max-width: 800px) {
   h1 {
     color: rgb(238, 200, 137);
