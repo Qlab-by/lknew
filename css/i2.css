@@ -258,11 +258,23 @@ p.i2_standart-text-middle.i2_blok_icon_160921 {
   align-items: center;
   padding: 2em;
   margin: auto;
+  text-align: center;
 }
 .i2_icon_2_160921 {
   font-size: 60px;
   margin-bottom: 0.5em;
   color: #eec889;
+}
+.i2_div_blok_five,
+.i2_div_blok_five_two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.i2_blok_two_icon_mil_160921 {
+  -webkit-box-flex: 0;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 @media screen and (min-width: 1200px) {
   .section_all {
@@ -309,6 +321,18 @@ p.i2_standart-text-middle.i2_blok_icon_160921 {
   .i2_pramoug,
   .i2_pramoug_rev {
     border-radius: 20px;
+  }
+  .i2_div_blok_five,
+  .i2_div_blok_five_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .i2_blok_two_icon_mil_160921 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
   }
 }
 @media (min-width: 100px) and (max-width: 520px) {
