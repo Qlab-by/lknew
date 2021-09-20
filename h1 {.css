@@ -264,8 +264,9 @@ p.i2_standart-text-middle.i2_blok_icon_160921 {
   margin-bottom: 0.5em;
   color: #eec889;
 }
+
 @media screen and (min-width: 1200px) {
-  .section_all {
+  .i2_section_all {
     margin-right: auto;
     margin-left: auto;
     padding-left: 2em;
