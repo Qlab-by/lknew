@@ -81,6 +81,10 @@ a.header-phone-i2 {
   width: 30%;
   margin-top: 2em;
 }
+.i2_img {
+  width: 100%;
+  margin-top: 2em;
+}
 .i2_section_one_shar {
   display: contents;
   margin-top: 1em;
@@ -233,6 +237,10 @@ h2.i2_section_two_h2_free {
   padding: 2em;
   font-size: 1.2em;
 }
+.i2_tre_blok_text.six {
+  padding: 0 2em 2em 2em;
+  font-size: 1.2em;
+}
 .i2_span_color_zol {
   color: #eec889;
 }
@@ -276,6 +284,119 @@ p.i2_standart-text-middle.i2_blok_icon_160921 {
   flex: 0 0 50%;
   max-width: 50%;
 }
+
+/* программа */
+.i2_programa_blok .programm-wr.standart-padding-wr.standart-wrapper {
+  padding: 0 2em;
+}
+.i2_programa_blok {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.i2_programa_blok .programm-part-content {
+  padding-left: 7.35em;
+  position: relative;
+}
+.i2_programa_blok .programm-part-content::before {
+  content: '';
+  position: absolute;
+  left: 7.35em;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 0.15em;
+  background-color: #eec889;
+}
+.i2_programa_blok .programm-item {
+  padding-left: 5.85em;
+  position: relative;
+  margin-bottom: 3em;
+}
+.i2_programa_blok .time {
+  position: absolute;
+  left: -7.35em;
+  top: 0;
+}
+.i2_programa_blok .time p {
+  color: #eec889;
+  line-height: 1.1;
+  margin-bottom: 1em;
+  margin-top: auto;
+  font-size: 1.5em;
+}
+.i2_programa_blok .marker {
+  position: absolute;
+  left: -0.75em;
+  top: 0;
+  border-radius: 50%;
+  width: 1.3em;
+  height: 1.3em;
+  border: 0.15em solid #eec889;
+  background-color: #ffffff;
+}
+.i2_programa_blok .item-programm-head h3 {
+  color: #eec889;
+  line-height: 1.1;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+  color: #eec889;
+}
+.i2_programa_blok .div_blok_programa_klub-investorov {
+  padding-bottom: 2em;
+}
+.i2_programa_blok i.fa.fa-circle.practik220721-blok-6 {
+  position: absolute;
+  left: -0.4em;
+  width: 1.3em;
+  height: 1.3em;
+  color: #eec889;
+  font-size: 8px;
+  top: auto;
+  margin-top: 10px;
+}
+.i2_programa_blok
+  p.tools-description.standart-text.voz-3.practik220721-blok-6.programa_klub-investorov {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: white;
+}
+.i2_programa_blok p.span_programa_klub-investorov {
+  font-size: 1.2em;
+  padding-left: 2em;
+  padding-top: 1em;
+  color: white;
+}
+.i2_programa_blok .item-programm-head_h5 {
+  font-size: 1em;
+  margin-top: -23px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* блок 6 о компании */
+.i2_blok_six {
+  display: flex;
+  align-items: center;
+}
+
+i.fas.fa-chart-line.i2_icon_six {
+  font-size: 20em;
+  color: #eec889;
+}
+.i2_blok_six {
+  display: flex;
+  align-items: center;
+  /* padding: 0 2em 0 4em; */
+}
+.i2_img_spiker_six {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+img.foto_spik_six {
+  width: 30%;
+}
 @media screen and (min-width: 1200px) {
   .section_all {
     margin-right: auto;
@@ -300,7 +421,17 @@ p.i2_standart-text-middle.i2_blok_icon_160921 {
     margin-right: 3em;
   }
 }
-
+@media (min-width: 100px) and (max-width: 1000px) {
+  .i2_blok_six {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  i.fas.fa-chart-line.i2_icon_six {
+    font-size: 10em;
+    color: #eec889;
+  }
+}
 @media (min-width: 100px) and (max-width: 800px) {
   .i2_blok_pram_l {
     margin-left: 1em;
@@ -333,6 +464,35 @@ p.i2_standart-text-middle.i2_blok_icon_160921 {
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
+  }
+}
+@media (min-width: 100px) and (max-width: 600px) {
+  .i2_programa_blok .programm-item {
+    padding-left: 1.85em;
+  }
+  .i2_programa_blok .time {
+    left: -5.35em;
+  }
+  .i2_programa_blok p.span_programa_klub-investorov {
+    padding-left: 1em;
+  }
+  .i2_programa_blok .item-programm-head h3,
+  .i2_programa_blok .time p {
+    font-size: 1em;
+  }
+  .i2_programa_blok .item-programm-head_h5 {
+    font-size: 0.8em;
+  }
+  .i2_programa_blok
+    p.tools-description.standart-text.voz-3.practik220721-blok-6.programa_klub-investorov,
+  .i2_programa_blok p.span_programa_klub-investorov {
+    font-size: 0.8em;
+  }
+  .i2_programa_blok p.span_programa_klub-investorov {
+    padding-top: 0.5em;
+  }
+  .i2_programa_blok .div_blok_programa_klub-investorov {
+    padding-bottom: 1em;
   }
 }
 @media (min-width: 100px) and (max-width: 520px) {
